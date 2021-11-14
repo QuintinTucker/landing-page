@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: rgb(1, 1, 95);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+.main {
+}
+
+.title {
+    background-color:  rgb(1, 1, 95);
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    color: white;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.info {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.card {
+    height: 150px;
+    width: 250px;
+    border: darkblue solid;
+}
+
+.quote {
+    background-color:lightgrey;
+    padding: 100px 150px;
+    font-size: 26px;
+}
+
+.banner {
+    background-color: blue;
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 100px;
+    color: white;
+}
+
+.footer {
+    background-color: darkblue;
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+a {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    color: white;
+    display: flex;
+    gap: 50px;
+    margin: 0;
+}
+
+.sign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+}
+
+img {
+    max-width: 400px;
+    border: white solid;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px;
+    gap: 50px;
+}
+
+button {
+    padding: 8px 16px;
+    width: 100px;
+    flex: 0 1 100%;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 0;
+}
